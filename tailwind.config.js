@@ -2,6 +2,10 @@ const { colors } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
+    content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+  ],
     screens: {
       sm: '640px',
       md: '768px',

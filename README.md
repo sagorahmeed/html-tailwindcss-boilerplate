@@ -60,4 +60,8 @@ npm run production
 yarn run production
 ```
 
+compile you css file
+
+npx tailwindcss build ./public/css/tailwind.css -o ./public/build/tailwind.css --watch
+
 After that's done, check out `./public/build/tailwind.css` to see the optimized output.
